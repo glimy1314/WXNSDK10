@@ -42,10 +42,10 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		61C29233334CD9BF80C5BCC1 /* Pods-WXNSDK10_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WXNSDK10_Tests.debug.xcconfig"; path = "Target Support Files/Pods-WXNSDK10_Tests/Pods-WXNSDK10_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		66FD9AACDF3C64F50E6114EB /* Pods_WXNSDK10_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WXNSDK10_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		69EE25A79276E8C8642C63DA /* WXNSDK10.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WXNSDK10.podspec; path = ../WXNSDK10.podspec; sourceTree = "<group>"; };
+		69EE25A79276E8C8642C63DA /* WXNSDK10.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WXNSDK10.podspec; path = ../WXNSDK10.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		81583E0D3007A77173AD7BB8 /* Pods_WXNSDK10_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WXNSDK10_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9C4772845B2B842F4F92697 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		C3983F0B93A78BF58173ACA8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B9C4772845B2B842F4F92697 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C3983F0B93A78BF58173ACA8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FEC10F596FD038B22FB8A079 /* Pods-WXNSDK10_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WXNSDK10_Example.debug.xcconfig"; path = "Target Support Files/Pods-WXNSDK10_Example/Pods-WXNSDK10_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -156,7 +156,6 @@
 				61C29233334CD9BF80C5BCC1 /* Pods-WXNSDK10_Tests.debug.xcconfig */,
 				3D6D22690F28F8901151552D /* Pods-WXNSDK10_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

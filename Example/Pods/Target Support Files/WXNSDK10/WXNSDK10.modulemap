@@ -1,0 +1,6 @@
+framework module WXNSDK10 {
+  umbrella header "WXNSDK10-umbrella.h"
+
+  export *
+  module * { export * }
+}
