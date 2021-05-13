@@ -1,9 +1,9 @@
 {
   "name": "WXNSDK10",
-  "version": "0.1.0",
-  "summary": "A short description of WXNSDK10.",
+  "version": "0.1.3",
+  "summary": "WXN is a beautiful girl who is my lover.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/guoliang/WXNSDK10",
+  "homepage": "https://github.com/glimy1314/WXNSDK10",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,13 @@
     "guoliang": "guoliang@baiing.cn"
   },
   "source": {
-    "git": "https://github.com/guoliang/WXNSDK10.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/glimy1314/WXNSDK10.git",
+    "tag": "0.1.3"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "WXNSDK10/Classes/**/*"
+  "swift_versions": "4.0",
+  "source_files": "WXNSDK10/Classes/**/*",
+  "swift_version": "4.0"
 }
